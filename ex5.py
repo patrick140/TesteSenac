@@ -12,7 +12,7 @@ else:
     ingresso = False
 
 
-if anniversariante == True or ingresso == True:
+if anniversariante == "sim" or ingresso == "sim":
     print("Acesso liberado")
 else:
     print("Acesso negado, Compre um ingresso")
